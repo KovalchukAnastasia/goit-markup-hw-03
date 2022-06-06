@@ -171,7 +171,7 @@ body {
 /*----------pproperties----------*/
 .properties {
     padding-top: var(--typical-padding);
-    padding-bottom: var(--typical-padding);   
+    padding-bottom: 0;   
 }
 
 .properties-list {
@@ -195,6 +195,10 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--second-title-color);  
+}
+
+.properties-item {
+    width: 270px;
 }
 
 .properties-item:not(:last-child) {
@@ -247,7 +251,7 @@ body {
 }
 
 .team-list {
-    padding-bottom: 30px;
+    
     display: flex;
 }
 
@@ -258,7 +262,6 @@ body {
     letter-spacing: 0.03em;
     color: var(--header-color);
     text-align: center;
-    margin-top: 30px;
     margin-bottom: 10px;
 }
 
@@ -268,8 +271,14 @@ body {
     letter-spacing: 0.03em;
     color: var(--second-title-color);
     text-align: center;
-    
 }
+
+.team-description {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+    
 .team-item + .team-item {
     margin-left: 30px;
 }
@@ -319,7 +328,8 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6); 
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 9px; 
 }
 
 .contacts-tel-link {
@@ -327,7 +337,8 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6); 
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 9px; 
 }
 
   .contacts-item-link:hover,
@@ -355,7 +366,7 @@ body {
    
     .potfolio-filters-list {
         display: flex;
-        margin-bottom: 34px;
+        margin-bottom: 50px;
         justify-content: center;   
     }
 
